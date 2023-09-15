@@ -15,9 +15,9 @@ type activity struct {
 // list of activities.
 var activities = []activity{
 	{Title: "More activities)", URL: "https://developers.redhat.com/developer-sandbox/activities"},
-	{Title: "Event-Driven Architecture using Apache Kafka (with Red Hat OpenShift Streams for Apache Kafka)", URL: "https://developers.redhat.com/node/226211"},
+	{Title: "Create an OpenShift Serverless function", URL: "https://developers.redhat.com/developer-sandbox/activities/create-openshift-serverless-function"},
 	{Title: "Deploy a Java Application on Kubernetes in minutes", URL: "https://developers.redhat.com/node/226211"},
-	{Title: "Learn Kubernetes", URL: "https://developers.redhat.com/node/226211"},
+	{Title: "Learn Kubernetes", URL: "https://developers.redhat.com/developer-sandbox/activities/learn-kubernetes-using-red-hat-developer-sandbox-openshift"},
 }
 
 // list as JSON
