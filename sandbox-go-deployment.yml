@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+  name: sandbox-go
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sandbox-go
+  template:
+    metadata:
+      labels:
+        app: sandbox-go
+    spec:
+      containers:
+      - name: myboot
+        image: quay.io/rhdevelopers/sandbox-go:latest
+        ports:
+          - containerPort: 8080
