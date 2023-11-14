@@ -7,4 +7,4 @@ One of the activities associated with this free cluster is the ability to build 
 
 This sandbox-go repo, written in Go, supports that example (i.e. s2i) for developers that are interested in the Go programming language.
 
-You can learn more here: https://developers.redhat.com/developer-sandbox/get-started]
+You can learn more here: https://developers.redhat.com/developer-sandbox/get-started
